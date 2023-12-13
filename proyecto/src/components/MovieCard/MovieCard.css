@@ -6,8 +6,8 @@
   }
   
   .movie-card img {
-    max-width: 100%; /* Asegura que la imagen no sobrepase el ancho de la tarjeta */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* (ancho) Asegura que la imagen no sobrepase el ancho de la tarjeta */
+    height: auto; /* (altura) Mantiene la proporción de la imagen */
   }
   
   .movie-card h3 {
