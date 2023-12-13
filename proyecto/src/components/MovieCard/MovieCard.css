@@ -1,21 +1,20 @@
 .movie-card {
     background-color: rgb(240, 233, 233); /* Fondo de la tarjeta */
-    padding: 1 rem; /* Espaciado interno */
-    /* box-shadow: 0 20px 40px rgba(218, 210, 210, 0.018); */
+    padding: 0.5rem; /* Espaciado interno */
     border-radius: 8px; 
   }
   
   .movie-card img {
-    max-width: 100%; /* (ancho) Asegura que la imagen no sobrepase el ancho de la tarjeta */
-    height: auto; /* (altura) Mantiene la proporción de la imagen */
+    max-width: 70%; /* (ancho) Asegura que la imagen no sobrepase el ancho de la tarjeta */
+    height: 60%; /* (altura) Mantiene la proporción de la imagen */
   }
   
   .movie-card h3 {
     margin-top: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.2 rem;
   }
   
   .movie-card p {
-    margin-top: 0.25rem;
-    font-size: 1rem; /* Tamaño de la fecha */
+    margin-top: 0.1rem;
+    font-size: 0.8rem; /* Tamaño de la fecha */
    }
