@@ -17,11 +17,30 @@ export const fetchMoviesByGenre = async (genreIds: string, page: number): Promis
     return { results: [], total_pages: 0 };
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* este archivo se dedica a realizar peticiones HTTP
 utilizando la API de películas de The Movie Database
 (TMDB). En particular, exporta una función llamada
 fetchMoviesByGenre que recibe como parámetro
-los IDs de género y devuelve una promesa que se
+el ID de género y devuelve una promesa que se
 resuelve en un array de objetos Movie. Esta función
 construye la URL de la petición utilizando el API Key
 proporcionado por TMDB y realiza una solicitud GET

@@ -10,6 +10,7 @@ import { fetchMoviesByGenre } from './api/movieApi';
 import { Movie } from './types';
 import './App.css';
 
+const CRIME_GENRE_ID = '80' // género crime
 const App: React.FC = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -17,7 +18,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const loadMovies = async () => {
-      const genreIds = '80'; // Crime
+      const genreIds = CRIME_GENRE_ID; 
       const data = await fetchMoviesByGenre(genreIds, currentPage);
       setMovies(data.results);
       setTotalPages(data.total_pages);

@@ -5,7 +5,7 @@ import './Pagination.css';
 interface PaginationProps {
   currentPage: number;
   totalPages: number;
-  onNextPage: () => void;
+  onNextPage: () => void; /*sin argumento y no devulve valor*/
   onPrevPage: () => void;
 }
 

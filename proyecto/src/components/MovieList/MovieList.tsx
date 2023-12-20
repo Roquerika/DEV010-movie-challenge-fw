@@ -12,7 +12,7 @@ const MovieList: React.FC<MovieListProps> = ({ movies }) => {
   return (
     <div className="movie-list">
       {movies.map(movie => (
-        <MovieCard key={movie.id} movie={movie} />
+        <MovieCard key={movie.id} movie={movie} /> /*La propiedad key se utiliza para identificar de manera única cada elemento en una lista*/
       ))}
 
 </div>
@@ -23,7 +23,3 @@ export default MovieList;
 
 
 
-// const CRIME_GENRE_ID = '80'
-
-
-//   const genreIds = '80'; Géneros crimen
