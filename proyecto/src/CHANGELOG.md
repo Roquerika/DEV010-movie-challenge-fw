@@ -68,3 +68,15 @@
 - Conocer cómo acceder y mostrar Para la película como mínimo: poster, título original, año de lanzamiento, géneros, promedio de votación y total de votos HU3
 
 ## [0.0.0] - 13-12-23
+
+### Added
+- Sprint 5
+
+### Changed
+- Ajustar CSS de la lista de películas y de la paginación.
+- Completar la configuración del entorno para jest con react, typescript y babel.
+- Ejecutar un test de prueba (no se logró, por temas de errores asociados a la interpretación de CSS que no se lograron resolver).
+- Investigar como llegar a cabo la HU2 y la HU3.
+- Completar los criterios de aceptación de la HU1.
+
+## [0.0.0] - 22-12-23
